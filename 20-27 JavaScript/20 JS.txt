@@ -1,0 +1,134 @@
+What is a Variable ?
+A Variable is simply the name of a storage location
+
+Ex: 
+age = 23
+age -> Variable, 23 -> Value
+
+name = "rishabh"
+name -> Variable, rishabh -> Value
+
+Data Types in JS
+Primitive Types
+    Number, Boolean, String, Undefined, Null -> Widely Used
+    Bigint, Symbol -> Rarely Used
+
+Numbers in JS
+Positive(14) & Negative(-4)
+Integers(45, -50)
+Floating number - with decimal (4.6, -8.9)
+
+Operation in JS
+addition = a + b
+subtraction = a - b
+multiplication = a * b
+division = a / b
+modulo = a % b (remainder operator)
+exponentiation a**b (power operator)
+
+NaN in JS
+The NaN global property is a value representing Not-A-Number
+0/0, NaN-1, NaN*1, NaN+NaN, NaN/NaN, NaN+1
+
+Operator Precendence
+This is the general order of solving an expression
+    Note: From Left to Right Priority
+()
+**
+*, /, %
++, -
+
+Ex: (5+2)/7+1*2
+    (7)/7+1*2
+    1+1*2
+    1+2 = 3
+
+    (2+1)*3
+    3*3 = 9
+
+    3/1+2**2
+    3/1+4
+    3+4 = 7
+
+    4+1*6/2
+    4+6/2
+    4+3 = 7
+
+let keyword
+Syntax of declaring variables
+Ex:
+let age = 20;
+age = age + 1;
+
+const keyword
+values of constants can't be changed with re-assignment & they can't be re-declared
+Ex:
+const pi = 3.14;
+
+var keyword
+Old syntax of writing variables
+Ex:
+var age = 23;
+var cgpa = 8.5;
+
+Assignment Operators
+age = age + 1 -> age += 1
+age = age - 1 -> age -= 1
+age = age * 1 -> age *= 1
+age = age / 1 -> age /= 1
+age = age % 1 -> age %= 1
+
+Unary Operators
+++age, --age -> Pre-increment (Change, then use)
+    let age = 10;
+    let newAge = ++age;
+age++, age-- -> Post-increment (Use, then change)
+    let age = 10;
+    let newAge = age++;
+
+Identifier Rules
+All JS variables must be identified with unique names (identifiers)
+
+* Names can contain letters, digits, underscores, and dollar signs.
+    (no space); a-z, A-Z, _, $
+* Names must begin with a letter.
+    let age;
+* Names can also begin with $ and _.
+    let _age; let $age;
+* Names are case sensitive (y and Y are different variables).
+* Reserved words (like JavaScript keywords) CANNOT be used as names.
+
+camelCase
+Way of writing identifiers
+
+camelCase (JS naming convention) -> let rishabhJain;
+snake_case -> let rishabh_jain;
+PascalCase -> let RishabhJain;
+
+Boolean in JS
+Boolean represents a truth value -> true or false / yes or no
+
+What is TypeScript ?
+Static Typed, where is JS is dynamic typed
+Designed by Microsoft
+
+String in JS
+Strings are text or sequence of characters
+
+String Indeices
+index = position
+0 based indexing 
+    let name = "RISHABH JAIN";
+    name[0] -> 'R'
+    name[1] -> 'I'
+    name[7] -> ' '
+    name.length -> 12
+
+Concatenation
+adding strings together 
+
+null & undefined in JS
+undefined -> A variable that has not been assigned a value is of typed
+
+null -> The null value represents the intentional absence og any object value.
+

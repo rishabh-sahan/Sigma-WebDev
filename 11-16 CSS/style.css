@@ -1,0 +1,390 @@
+/* h2 {
+    color: orange;
+    background-color: yellow;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+button {
+    color: white;
+    background-color: blue;
+} */
+
+/* h1{
+    text-align: center;
+    border: solid;
+    width: 50%;
+    text-decoration: wavy red underline;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: avant garde, didot, sans-serif;
+}
+
+h2{
+    font-weight: normal;
+    text-decoration: double blue line-through;
+}
+
+h3{
+    text-align: end;
+    text-decoration: dotted overline;
+    font-family: impact;
+
+}
+
+p{
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+} */
+
+/* Apna College Logo Design */
+/* h1 {
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height:1.5;
+    text-decoration: double teal underline;
+    text-transform: uppercase;
+} */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(77, 255, 0, 0.633);
+    transition-duration: 1s;
+    transition-delay: 1s;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}  */
+
+/* #opacity {
+    background-color: yellow;
+    opacity: 0.5;
+} */
+
+/* div:hover{
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 400px;
+    background-color: pink;
+} */
+
+/* section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    background-color: #7aa874;
+    border: 2px solid #000;
+    margin: 10px, auto;
+    text-align: center;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02b;
+}
+
+#one {
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: scale(0.5);
+}
+
+#three{
+    transform: translateX(-100px);
+}
+
+#four{
+    transform: skew(30deg);
+}
+
+#five{
+    transform: rotate(30deg) translateX(150px);
+} */
+
+/* div{
+    width: 200px;
+    height: 50px;
+    background-color: #7aa874;
+    margin: 10px, auto;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+} */
+
+/* div{
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px, auto;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    background-image: url('https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+    color: white;
+} */
+
+/* .card {
+    width: 200px;
+    height: 200px;    
+    border: 2px solid #000;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px black;
+    transition: 1s;
+}
+
+.desc p{
+    padding: 0 2px 0 2px;
+}
+
+img {
+    width: 95%;
+    height: 110px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px black; 
+} */
+
+/* .face{
+    width: 400px;
+    height: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+}
+
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.left-eye, .right-eye {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.right-eye {
+    left: 250px;
+} */
+   
+/* #container {
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+#org{
+    align-self: flex-start;
+    flex-basis: 50px;
+    flex-grow: 1;
+    flex: 2 2 100px;
+}
+
+#blue{
+    flex-basis: 400px;
+    flex-grow: 2;
+    min-width: 400px;
+    flex-shrink: 2;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+} */
+
+/* .container {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: (5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    place-items: center;
+} */
+
+/* .item {
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: start;
+}
+
+.one{
+    place-self: start;
+} */
+
+/* .one {
+    justify-self: end;
+    align-self: end;
+} */
+
+/* .one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column: 1 / 4;
+    grid-column: 1 / span 3;
+} */
+
+/* .two {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-row: 1 / span 3;
+} */
+
+/* .box{
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+    animation-name: widthAnimate ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+    animation: colAnimate 4s ease-in 0s infinite normal;
+} */
+
+/* @keyframes colAnimate {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes fontanimation {
+    from {font-size: 20px;}
+    to {font-size: 40px;}
+} */
+
+/* @keyframes colorAnimate {
+    from {background-color: green;}
+    to {background-color: blue;}
+} */
+
+/* h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (width: 200px) {
+    h1 {
+        background-color: red;
+        color: white;
+    }
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+
+@media(min-width:700px){
+    h1 {
+        background-color: greenyellow;
+    }
+}
+
+@media(max-width:400px){
+    h1{
+        background-color: pink;
+    }
+}
+
+@media(max-width:300px)and(max-width:200px){
+    h1{
+        background-color:magenta;
+    }
+}
+
+@media(orientation: landscape){
+    h1{
+        background-color: red;
+    }
+} */
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one {
+    background-color: aquamarine;
+    position: relative;
+    z-index: -1;
+}
+
+.two {
+    background-color: darksalmon;
+    position: relative;
+    bottom: 50px;
+    z-index: 0;
+}

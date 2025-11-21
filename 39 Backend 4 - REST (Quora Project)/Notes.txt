@@ -1,0 +1,28 @@
+REST
+Representational State Transfer
+REST is an architectural style that defines a set of constraints to be used for creating web services
+
+CRUD operations used in DataBases(DB)
+    Create
+    Read
+    Update
+    Delete
+
+CRUD Operations
+    GET -> retrieves resources
+    POST -> submits new data to the server
+    PUT -> updates existing data
+    PATCH -> update existing data partially
+    DELETE -> removes data
+
+Creating RESTful APIs
+GET -> /posts -> to get data for all posts -> INDEX(main)
+POST -> /posts -> to add a new post -> CREATE
+GET -> /posts/:id -> to get one post (using id) -> VIEW
+PATCH -> /posts/:id -> to update specific post -> UPDATE
+DELETE -> /posts/:id -> to delete specific post -> DESTROY
+
+UUID Package 
+    Universally unique identifier
+    npm install uuid
+

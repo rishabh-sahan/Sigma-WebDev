@@ -1,0 +1,38 @@
+git --version -> To check version
+
+ls = list files -> To list files 
+
+clear -> To clear screen
+
+pwd = print working directory -> Working Directory (where am i ?)
+
+/ = Root Directory
+~ = Home Directory in Mac
+
+Navigation
+    Inside & Outside Directories
+
+cd = change directory
+    cd folder_name
+
+cd .. = back button
+cd../.. = back button twice
+
+Making Directories
+
+mkdir = make directory 
+    mkdir new_folder_name;
+
+touch = To create new file
+    touch file_name
+
+Deleting Files & Folders
+
+rm = remove files
+
+rmdir = removes empty folders
+
+rm -rf = removes any folders
+    rf -> Recursive Delete Forced, recursive force, remove with force 
+    
+

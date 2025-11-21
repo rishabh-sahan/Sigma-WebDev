@@ -1,0 +1,22 @@
+What is Git ?
+    Free & Open source Version Control System
+    It is a tool that help to tracks changes in code
+    Helps to track history, Helps to Collaborate
+
+What is Github ?
+    Website where we host repositories online
+
+README.md
+    md -> Markdown 
+    
+Workflow
+
+Local Git = code changes -> "add" (stage a change) -> "commit" (commit changes) -> "push"
+Github = code changes -> commit
+
+git log
+
+What is Forking ?
+A fork is a new repository that shares code and visibilty settings with the original "upstream" repository
+    Fork is a rough copt
+

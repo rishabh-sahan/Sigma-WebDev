@@ -1,0 +1,14 @@
+The Terminal -> A text input and output environment
+
+Different Terms
+    Command Line -> Any interface that is used by entering textual commands (generally Windows centric)
+    Terminal -> This is a type of command line (generally Mac centric)
+    Console -> A command-line interface used to work with your computer
+
+    Shell -> A Program running on Terminal
+
+    Bash -> Apopular shell on Mac OS / Linux
+    Z-Shell -> Another shell (default)
+
+Flags -> Flags are characters that we pass with commands to modify their behaviour
+Touch Command -> Used to create files

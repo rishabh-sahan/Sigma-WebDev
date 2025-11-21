@@ -1,0 +1,19 @@
+Basic Design Principles
+
+For better looking Websites
+# Color Theory
+    * Color Wheel
+    * Color Combinations -> Monochromatic & Complementary & Triadic
+    -> Use Canva Color Wheel
+    * Meaning of Colors
+
+# Typography
+    * Style & Apperance of Text
+    * Font Families
+
+Google Fonts
+-> https://fonts.google.com
+    
+# Icons
+-> Google Icons
+-> Font Awesome

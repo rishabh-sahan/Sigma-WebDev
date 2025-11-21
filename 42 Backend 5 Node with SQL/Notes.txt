@@ -1,0 +1,21 @@
+Faker
+    To generate fake data
+
+MySQL2 Package
+    To connect node with MySQL
+
+Using SQL
+    Workbench
+    MySQL package node.js
+    CLI -> mysql -u root -p 
+        -> usr/local/mysql/bin/mysql -u root -p 
+    Using SQL files
+        ->Create schema.sql -> source schema.sql (in SQL CLI)
+
+Setting up Express App
+    GET/ = Fetch & show total number of users on our app 
+    GET/user = Fetch & show (userID, username, email) of all users
+    GET/user/:id/edit = To get form to edit the username based on id
+                        This form will require a password
+    PATCH/user/:id = To edit username, if correct password was entered in form
+    

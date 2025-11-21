@@ -1,0 +1,27 @@
+BootStrap is a Framework
+BootStrap is a popular CSS Framework
+
+It works on the concept of flexbox
+It has some pre-built components
+    Ex: Buttons, Forms, Navbar, Card
+
+What is BootStrap?
+    "BootStrap is a powerful, feature-packed frontend toolkit. Build anything-from prototype to production in minutes."
+Bootstarp has pre built CSS files
+
+Benifits of Bootstrap 
+    * Makes Development Faster & Easier
+    * Good choice for pre-built components -> Responsive
+    * Good Browser Compatability
+
+CDN -> Content Delivery Network
+
+What will we cover ?
+    -> Components: pre-built and reusable piece of user interface (UI)
+    Ex: button, forms
+    -> Layouts: overall structure and arrangement of the elements
+    Ex: container, grid
+
+Container
+Layout
+Containers are used to contain, pad, and (sometimes) center the content within them.

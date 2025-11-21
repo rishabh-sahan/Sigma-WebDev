@@ -1,0 +1,18 @@
+Array Methods
+    forEach, map, filter, some, every, reduce
+
+forEach -> arr.forEach(some function definition or name);
+map -> let newArr = arr.map(some function definition or name);
+filter -> let newArr = arr.filter(some function definition or name);
+every -> Returns true if every element of array gives true for some function. Else returns false.
+    arr.every(some function definition or name);
+some -> arr.some(some function definition or name);
+reduce -> Reduces the array to a single value
+    arr.reduce(reducer function with 2 variables for (accumulator, element));
+
+Default Parameters -> Giving a default value to the arguments
+Spread -> Expands an iterable into multiple values
+
+Rest -> Allows a function to take an indefinite number of arguments and bundle them in an array
+
+Destructuring -> Storing values of array into multiple variables

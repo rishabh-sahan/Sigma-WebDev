@@ -1,0 +1,20 @@
+Library v/s Framework
+Library -> A library is a collection of pre-written code that can be used to perform specific tasks
+    eg: axios
+
+Framework -> A framework is a set of pre-written code that provides a structure for developing software applications
+    eg: express
+
+Express 
+A Node.js web application framework that helps us to make web applications 
+It is used for server side programming
+
+Ports are the logical endpoints of a network connection that is used to exchange information between a web server and a web client
+
+Routing -> It is process of selecting a path for traffic in a network or between or across multiple networks
+
+nodemon
+By Installing nodemon so that if we change code while server is running there is no need to stop the server & again need to restart the server when the code gets changed server automatically gets restarts in powershell/terminal
+    It is recommended to install nodemon in global
+    npm install -g nodemon
+

@@ -1,0 +1,72 @@
+git --version
+
+git 
+
+clear
+
+Configuring Git
+git config --global user.name "My Name"
+git config --global user.email "someone@email.com"
+git config --list
+
+Basic Commands
+clone -> Cloning a repositry on our local machine = git clone <repo-link>
+status -> Displays the state of the code = git status
+
+ls -la = to see hidden files in the folder
+
+add -> adds new or changed files in your working directory to the git staging area = git add <file-name>
+    git add . -> entire codebase is staged 
+
+commit -> it is the record of change = git commit -m "some message"
+push -> upload local repo content to remote repo = git push origin main 
+
+init -> used to create a new git repo = git init
+
+git remote add origin <repo-link>
+    link of the repo where the files need to be stored or pushed
+git remote -v -> to verify remote
+git branch -> to check branch
+git branch -M main -> to rename branch
+git push origin main 
+
+git push -u origin main 
+    if we use -u once means then again we dont need to mention origin main
+    -u -> upstream
+    git main 
+
+Branch Commands
+
+git branch -> to check branch
+git branch -M main -> to rename branch
+git check out <branch-name> -> to navigate
+git checkout -b <new-branch-name> -> to create new branch
+git branch -d <branch-name> -> to delete branch
+
+git checkout main -> to comeback to main branch
+
+Merging Code 
+git diff <branch-name> -> to compare commits, branches, files & more
+git merge <branch-name> -> to merge 2 branches
+    OR
+Create a PR (Pull Request)
+
+Pull Request -> It lets you tell others about changes you've pushed to a branch in a repository on GitHub 
+PR Merge is also Commit 
+
+git pull origin main -> used to fetch and download content from a remote repo and immediately update the local repo to match that content
+
+Merge Conflicts -> An event that takes place when git is unable to automatically resolve differences in code between two commits
+
+Fixing Mistakes
+Case 1: Staged changes
+    git reset <file-name>
+    git reset
+
+Case 2: commited changes (for one commit)
+    git reset HEAD-1
+
+case 3: commited changes (for many commits)
+    git reset <commit-hash>
+    git reset --haard <commit-hash>
+    

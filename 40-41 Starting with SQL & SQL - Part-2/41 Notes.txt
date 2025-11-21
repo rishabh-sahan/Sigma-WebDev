@@ -1,0 +1,60 @@
+Where Clause
+    To define some conditions
+
+Operators
+    Arithmetic Operators: +, -, *, /, %
+    Comparision Operators: =, !=, >, >=, <, <=
+    Logical Operators: AND, OR, NOT, IN, BETWEEN, ALL, LIKE, ANY
+    Bitwise Operators: &, |
+
+Frequently used Operators
+    AND: to check for both conditions to be true
+    OR: to check for one of the conditions to be true
+    BETWEEN: selects for a given range
+    IN: matches any value in the list
+    NOT: to negate the given condition
+
+Limit Clause
+    Sets an upper limit on number of (tuples) rows to be returned
+
+Order by Clause
+    To sort in ascending (ASC) or descending order (DESC)
+
+Aggregate Functions
+    Aggregate functions perform a calculation on a set of values, and return a single value
+    COUNT()
+    MAX()
+    MIN()
+    SUM()
+    AVG()
+
+Group by Clause
+    Groups rows that have the same values into summary rows.
+    It collects data from multiple records and groups the result by one or more column.
+    *Generally we use group by with some aggregation function 
+
+Having Clause
+    Similar to where i.e. applies some condition on rows.
+    But it is used when we want to apply any condition after grouping
+
+    WHERE is for the table, HAVING is for a group
+    Grouping is necessary for HAVING
+
+General Order
+    SELECT column(s)
+    FROM table_name
+    WHERE condition
+    GROUP BY column(s)
+    HAVING condition
+    ORDER BY column(s) ASC;
+
+Table Queries
+    Update (to update existing rows)
+    Delete (to delete existing rows)
+    Alter (to change the schema)
+    ADD Column
+    DROP Column
+    RENAME Table
+    CHANGE Column (rename)
+    MODIFY Colum (modify datatype/constraint)
+    Truncate (to delete table's data)

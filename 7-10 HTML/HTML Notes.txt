@@ -1,0 +1,101 @@
+<!-- HTML HyperText Markup Language -->
+
+<!-- HTML Elements
+Paragraph <p> </p>
+Heading <h1> </h1>
+Bold <b> </b>
+Italic <i> </i>
+underline <u> </u>  -->
+
+<!-- <p>This is <b> Rishabh Jain </b> </p> -->
+
+<!-- Lists in HTML
+ul -> Unordered List
+ol
+li -> List Item -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML</title>
+</head>
+<body>
+    <ul>
+        <li>Bread</li>
+        <li>Butter</li>
+        <li>Jam</li>
+    </ul>
+    <ol type="1">
+        <li>Bread</li>
+        <li>Butter</li>
+        <li>Jam</li>
+    </ol>
+</body>
+</html> -->
+
+<!-- HTML Attributes
+Attributes are used to add more information to the tag.
+<html lang="en"> -->
+
+<!-- Anchor Element
+Used to add links to your page.
+<a href="https://www.google.com">Google</a> -->
+
+Inside href 2 types of links Absolute link & Relative link
+
+Image Elements
+Used to add image to your page 
+<img src="image.png" alt="Random Image">
+
+Br tag
+Used to add next line(line breaks) to your page 
+<br>
+
+Bold,Italic, Underline Tags
+<b>Bild<\b>
+<i>Italic<\i>
+<u>undeline<\u>
+
+HTML Entites 
+Entity is a piece of string begins with an ampersand (&) and ends with semicolon (;)
+nbsp - non breaking space
+< - &lt;
+> - &gt;
+heart - &hearts;
+& - &amp;
+" - &quot;
+
+Tables in HTML -> Combination of Rows & Column
+Tables are used to represent real life table data
+Attributes of Table are Rows & Column 
+<tr> used to display table row
+<td> used to display table data
+<th> used to display table header
+
+<thead> to wrap table header
+<tbody> to wrap table body
+<tfoot> to wrap table footer
+
+Colspan & Rowspan Attributes
+used to create cells which spans over multiple rows or columns
+
+Forms in HTML
+Action Attribute -> It is used to define what action needs to be performed when a
+form is submitted or where the form data should be sent
+
+Form Elements
+* used to create multiple form controls
+* there are multiple types of inputs that can be created using type Attributes
+
+Type Attribute
+<input>
+<input type="text">
+<input type="password">
+<input type="number">
+<input type="time">
+<input type="color">
+
+
+

@@ -1,0 +1,62 @@
+JS Objects Literals
+Used to store keyed collections & complex entities.
+property => (key, value) pair
+Objects are a collection of properties
+
+Get Values
+    JS automatically converts objects keys to strings
+    Even if we made the number as a key, the number will be converted to string
+
+Objects of Objects
+    Storing information of multiple students   
+
+Array of Objects
+    Storing information of multiple students
+
+Math Object 
+Properties 
+    Math.PI, Math.E
+Methods
+    Math.abs(n), Math.pow(a,b), Math.flooer(n), Math.ceil(n), Math.random()
+
+-------------------------------------------------------------------------------------------------
+
+25)
+
+Function in JS
+    console.log(), arr.push(), .pop() 
+
+Functions with Arguments
+    Values we pass to the Function
+
+Return
+    return keyword is used to return some value from the function 
+
+Scope
+    Scope determines the accessibility of variables, object, and functions from diffferent parts of the code
+    Function, Block, Lexical
+
+Function Scope -> Variables defined inside a function are not accessible (visible) from outside the function
+Block Scope -> Variables declared inside a {} block cannot be accessed from outside the block
+Lexical Scope (Nested Function) -> A variable defined outside a function can be accessible inside another function defined after the variable declaration
+    The opposite is NOT true
+
+Higher Order Functions -> Takes one or multiple functions as arguments
+    A Function that does one or both
+    * takes one or multiple functions as Arguments
+    * returns a function
+
+Methods -> Actions that can be performed on an object
+
+---------------------------------------------------------------------------------------------------
+
+26)
+
+this keyword
+    This keyword refers to an object that is executing the current piece if code
+
+try & catch 
+    The try statement allows you to define a block of code to be tested for rerrors while it is being executed
+    
+    The catch statement allows you to define a block of code to be executed, if an error occurs in the try block
+

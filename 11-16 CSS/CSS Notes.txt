@@ -1,0 +1,464 @@
+CSS - Cascading Style Sheets
+
+What is CSS-> It is a language that is used to describe the style of a document
+
+Basic Format of CSS
+Selector, Property, Value
+
+h1{
+    color: red;
+}
+
+How to Include Styles in HTML
+* Inline Styles-> Writing style directly inline on each element
+<h1 style="color: red">Apna College</h1>
+
+* Using <style> tag
+Style is added using the <style> element in the same document
+<style>
+    h1{
+        color: red;
+    }
+</style>
+
+*External Stylesheet
+Writing CSS in a separate document & linking it with HTML file
+Linking HTML with CSS file
+<head>
+    <link rel="stylesheet" ref="style.css">
+</head>
+
+Property in CSS
+Color Property-> Used to set the color of foreground
+* color name, color code, color rgb values
+
+Background Color Property-> Used to set the color of background
+
+Color Systems
+RGB -> Red Green Blue(0-255)
+Red(255, 0, 0)
+Green(0, 255, 0)
+Blue(0, 0, 255)
+with the combination of RGB we can create millions of colors
+
+Hexadecimal or Hex -> color=#FFFFFF; (00-ff)
+Letters: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+#000000 -> Black <- #000(Short form in 3 digits)
+#ffffff -> White <- #fff(Short form in 3 digits)
+#0000ff -> Blue
+#ffff00 -> Yellow -> rgb(255, 255, 0)
+#0000ff -> Blue -> rgb(0, 0, 255)
+
+Text Properties
+text-align
+    text-align: left/start
+    text-align: right/end
+    text-align: center
+    text-align: justify
+
+font-weight
+    font-weight: normal   //400
+    font-weight: bold     //700
+    font-weight: 100
+    font-weight: bolder
+    font-weight: lighter
+
+text-decoration-> sets the appearance of decorative lines on text like undrline
+    text-decoration: underline
+    text-decoration: overline
+    text-decoration: line-through
+    text-decoration: red underline
+    text-decoration: wavy oveline
+    text-decoration: dotted line-through
+
+line-height-> controls the height of the line of text
+    line-height: normal
+    line-height: 2.5
+
+letter-spacing-> controls the horizontal spacing behaviour between text characters
+    letter-spacing: normal
+    letter-spacing: 10px
+    
+font-size
+    Absolute units-> px, pt, pc, cm, mm, in
+        Pixels (px)-> most commonly used absolute unit 96px=1 inch (not suitable for responsive websites)
+    Relative units-> %, em, rem, ch, vh, vw + many more
+
+font-family-> specifies a prioritized list of one or more font family names
+    font-family: arial 
+    font-family: avant garde, didot, sans-serif
+
+
+Selectors in CSS
+Universal Selector-> To select everything in a document -> (*)
+*{
+    property: value;
+}
+
+Element Selector-> Selects all elements of the same type -> (*)
+h1{
+    property: value;
+}
+
+ID Selector-> Selects an element based on the value of the element's id attribute
+#myID{
+    property: value;
+}
+
+Class Selector-> Selects an element based on their class attribute
+.myclass{
+    property: value;
+}
+
+Descendant Selector-> Ex: Selects all paragraphs inside divs
+div p{
+    proprty: value;
+}
+
+Adjacent Sibling Combinator-> Ex: Heading3 that comes immediately after any paragraphs
+p + h3{
+    property: value;
+}
+
+Child Combinator-> Ex: Selects all buttons which are direct children of spans
+span > button {
+    property: value;
+}
+
+Attribute Selector-> Selects elements based on the presence or value of a given attribute
+input[attr="value"]{
+    property: value;
+}
+
+Pseudo Class-> A Keyword added to a selector that specifies a special state of the selected element(s)
+:hover
+:active
+:checked
+:nth-of-type
+
+Pseudo Elements-> A keyword added to a selector that lets you style a specific part of the selected element(s)
+:first-letter
+:first-line
+:selection
+
+CSS : Cascading StyleSheets
+What is cascade in CSS?
+The CSS cascade algorithm's job is to select CSS declarations in order to determine the correct values for CSS Properties
+h2{
+    background-color: yellow;
+}
+h2{
+    background-color: blue;
+}
+
+Selector Specificity
+What is Specificity?
+Specificity is an alogorithm that calculates the weight that is applied to a given CSS declaration
+id>class>element
+more selectors>less selectors
+if specificity same=Cascading
+
+Inline Specificity-> Inline styles are more specific than id
+
+!important-> To show the most specific thing in document
+h2{
+    background-color: blue !important;
+}
+
+Inheritance in CSS
+width, height, border -> non-inherit 
+
+Intermediate CSS
+Box Model in CSS
+Height, Width, Border, Padding, Margin
+
+Height-> By default, it sets the content area height of the element
+div {
+    height: 100px;
+}
+
+Width-> By default, it sets the content area width of the element
+div {
+    width: 300px;
+}
+
+Border-> Used to set an element's border
+border-width, border-style, border-color
+
+Border Shorthand
+width|style|color
+div {
+    border: 2ps soild blue;
+}
+
+Border Sides-> To control an individual side of the box
+border-left, border-right, border-top, border-bottom
+
+Border Radius-> Used to round the corners of an element's outer border edge
+div {
+    border-radius: 15px;
+}
+div {
+    border-radius: 50px;
+}
+
+Padding
+padding-left, padding-right, padding-top, padding-bottom
+
+Padding Shorthand
+* for all 4 sides -> padding: 50px;
+* top & bottom | left & right -> padding: 1px 2px;
+* top | left & right | bottom -> padding: 1px 2px 3px;
+* (clockwise) top | right | bottom | left -> padding: 1px 2px 3px 4px;
+
+Margin-> To set on the outside of bordere
+margin-left, margin-right, margin-top, margin-bottom
+
+Inline v/s Block
+Block Elements -> Takes up the full-width available(whole block)
+* start from new line
+
+Inline Elements-> Takes up only necessary width
+* Dont start from new line
+
+Display-> It sets whether an element is treated as a block or inline element and the layout used for its children
+display: inline
+display: block  
+
+CSS - Next steps
+Alpha Channel (to make transparent) -> sets the opacity for a color , ranges from 0 (hidden) to 1  (visible)
+    rgba(255,255,255,0.3)
+
+Opacity -> sets the opacity for the element, ranges from 0(hidden) to 1(visible) 
+    opacity:0.5
+
+    aplha- color opacity 
+    opacity - element's opacity
+
+CSS transitions -> Transitions enable you to define the transition between two states of an element.
+    ex., a square when hover/click in it , it should make a transition to circle 
+    transition-duration -> put transition time to see fade in and out 
+    transition shorthand -> Property name | duration | timing-function | delay
+     transition: margin-top 2s ease-in-out 0.2s;
+     margin: 0 auto; to put element center
+
+CSS Transform -> This property lets you rotate, scale, skew, or translate an element.
+    (i) Rotate : transform: rotate(45deg); -> square to diamond
+    (ii)Scale : transform: scale (0.5);  transform: scale (1.5); -> scale means suppose div size is 1 , scale of 0.5 means half of it 2 means double both height and width
+    (iii)Translate : tranform:translate(50px,50px);  ,  tranform:translateX(10px);     tranform:translateY(10px);   -> move along X and Y  
+    (iv)Skew : transform: skew(30deg);
+
+Box Shadow -> It adds shadow effects around an elemnt's frame
+        box-shadow: Xoffset Yoffset blur-radius shadow-color;
+    box-shadow: 2px 2px 10px green;
+
+Background Image -> Lets you set an image as a background.
+    background-image:url(".....");
+    background-size: contain/cover/auto;
+
+
+Position -> The position CSS property sets how an element is positioned in a document.
+    The top, right, bottom, and left properties determine the final location of positioned elements
+    (i)static -> The top, right, bottom, left and z-index properties have no effect.   this is the default value (considered from actual corner of the website)
+    (ii)relative -> The offset is relative to itself based on the values of top,right,bottom and left  (consider from center )
+    (iii)absolute -> The element is removed from the normal document flow, and no space is created for the element in the page layout. 
+                    It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block  (considered from the corner of the website page)
+    (iv)fixed -> The element is removed from the normal document flow, and no space is created for the element in the page layout.
+                    It is positioned relative to the initial containing block established by the viewport
+    (v)sticky
+
+What is Flexbox??
+-> Flexible Box Layout
+-> It is a one-dimensional layout method for arranging items in rows or columns.
+-> It is used to do responsive websites
+
+Flexbox Direction
+-> It sets how flex items are placed in the flex container, along which axis and direction.
+
+flexbox-direction: row;  // main axis, left to right
+flexbox-direction: row-reverse;  // main axis, right to left
+flexbox-direction: column;  // main axis, top to bottom
+flexbox-direction: column-reverse;  // main axis, bootom to top
+
+Justify content
+-> Tells how the browser distributes spacre between and around content items along the main-axis
+
+justify-content: flex-start;
+justify-content: flex-end;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+
+Flex Wrap
+-> Sets whether flex items are forced onto one line or can wrap onto multiple lines
+
+flex-wrap: nowrap;
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+
+Align items
+-> Distributes our items along the cross axis
+
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+align-items: baseline;
+
+Align content
+-> It sets the distribution of space betweenand around content items along a flexbox's cross-axis
+
+align-content: flex-start/flex-end/center;
+align-content: space-between/space-around/evenly;
+align-content: baseline;
+
+Align Self
+-> Aligns an item along the cross axis
+-> It is only for individual
+
+align-self: flex-start;
+align-self: flex-end;
+align-self: center;
+align-self: baseline;
+
+Flex Sizing
+* flex-basis
+-> It sets the initial main size of a flex item
+flex-basis: 100px;
+
+* flex-grow
+-> It soecifies how much of the flec container's remaining space should be assigned to the slex item's main size
+flex-grow:1;
+
+*flex-shrink
+-> It sets the flex shrink factor of a flex item
+flex-shrink:1;
+
+Flex Shorthand
+
+* flex-grow | flex-shrink | flex-basis
+flex: 2 2 100px;
+
+* flex-grow | flex-basis
+flex: 2 100px;
+
+* flex-grow(unitless)
+flex:2;
+
+* flex-basis
+flex:100px;
+
+CSS Grid
+Setting a container's display to grid will make all children grid items
+
+container{
+    display: grid;
+}
+
+Grid Model -> Row lines & Column lines
+Grid Lines, Grid Cell, Grid Track
+
+Grid Template -> They define the lines & track sizing
+grid-template-rows:
+grid-template-columns: 
+
+Grid Template-> Repeat is used to divide all available space
+grid-template-rows: repeat(count, 1fr);
+grid-template-columns: repeat(count, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-template-rows: 1fr 1fr
+
+Grid Gaps-> They define the gaps between the lines
+row-gap:
+column-gap:
+grid-gap: rowGap columnGap 
+
+Grid Columns-> Define's an item's starting & ending position inside the column
+
+grid-column-start: line_number;
+grid-column-end: line_number;
+
+grid-column: start_col / end_col;
+grid-column: start_col / span number;
+
+Grid Rows-> Defines an item's starting & ending position inside the row
+grid-row-start: line_number;
+grid-row-end: line_number;
+
+grid-row: start_row / end_row;
+grid-row: start_row / span number;
+
+Common Properties
+Horizontal
+    justify-items (container)
+    justify-self (item)
+
+Vertical
+    align-items (container)
+    align-self (item)
+
+place-items
+place-self
+
+CSS Animations-> To animate CSS elements
+
+@keyframe myName{
+    from{font-size:20px;}
+    to{font-size:40px;}
+}
+
+CSS Animations
+animation-name, animation-duration, animation-timing-function, animation-delay,
+animation-iteration-count, animation-direction.
+
+Animation Shorthand
+animation; myName 2s linear 3s infinite normal
+
+% in Animation
+@keyframe myName{
+    0% {font-size: 20px;}
+    50% {font-size: 30px;}
+    100% {font-size: 40px;}
+}
+
+Media Queries-> Help create a responsive website
+Media features - width(of viewport)
+@media(width:400px){
+    div{
+        background-color:red;
+    }
+}
+
+width(of viewport)
+@media(min-width:400px){
+    div{
+        background-color:red;
+    }
+}
+
+@media(max-width:400px){
+    div{
+        background-color:red;
+    }
+}
+
+@media(max-width:400px)and(max-width:300px){
+    div{
+        background-color:red;
+    }
+}
+
+Orientation(of viewport)
+@media(orientation: landscape){
+    div{
+        background-color: orange;
+    }
+}
+
+z-index-> It decides the stack level of elements
+Overlapping elements withh a larger z-index cover those wih a smaller one
+
+z-index: auto(0)
+z-index: 1/2/...
+z-index: -1/-2/...
+

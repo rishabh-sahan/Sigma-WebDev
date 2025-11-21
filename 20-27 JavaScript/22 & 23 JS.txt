@@ -1,0 +1,75 @@
+String Methods
+Methods -> actions that can be performed on objects
+ 
+Format
+stringName.methos()
+
+String Methods
+str.trim()
+Trims whitespaces from both ends of string & returns a new one
+
+String are immutable in JS
+No changes can be made to strings
+Whenever we do try to make a change, a new string is created and old one remains same.
+
+String Methods
+let str = "Random string";
+str.toUpperCase()
+str.toLowerCase()
+
+String Methods with Arguments 
+Argument is a some value that we pass to the Method
+
+Format
+stringName.method(arg)
+
+indexOf
+Returns the first index of occurrence of some value in string. or gives -1 if not found
+
+Method Chaining
+Using one method after another. Order of execution will be left to right.
+
+Slice
+Returns a part of the original string as a new string
+
+Replace
+Searches a value in the string & returns a new string with the value replaced
+
+Repeat
+Returns a string with the number of copies of a string
+
+Array (Data Strucutre)
+Linear collection of things
+Arrays are Mutable
+
+Array Methods
+Push: add to ends
+Pop: delete from end & returns it
+Unshift: add to start
+Shift: delete from start & returns it
+indexOf: returns index of something
+includes: search for a vlaue
+concat: merge 2 arrays
+reverse: reverse an array
+slice: copies a portion of an array
+splice: removes/replaces/add elements in place
+    aplice(start, deleteCount, item()...itemN)
+sort: sorts an array
+
+Array references -> Address in memory 
+
+Constant Arrays
+
+Nested Arrays -> array of arrays or multi dimensional arrays
+
+-----------------------------------------------------------------------------
+
+23)
+
+Loops
+Used to iterate a piece of code
+
+Break -> Stop loop execution
+Loops with Arrays -> Nested Loops with nested Arrays
+
+for of loop

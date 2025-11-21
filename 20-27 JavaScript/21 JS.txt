@@ -1,0 +1,68 @@
+console.log()
+to write (log) a message on the console
+
+console.log("Apna College");
+console.log(1234);
+console.log(2+2);
+console.log("Apna","College",123)
+
+Linking JS File
+<script src="app.js"></script>
+
+Template Literals
+They are used to add embedded expressions in a string
+
+Operators in JS
+Arithmetic (+, -, *, /, %, **)
+Unary (++, --)
+Assignment (=, +=, -=, *=, /=, %=, etc.)
+Comparison
+    Comparision operators to compare 2 values
+    >, >=, <, <=, ==, !=
+    == -> compares values, not type.
+    === -> compares types & value.
+Logical 
+
+Conditional Statements
+if-else
+nested if-else
+    Nesting is writing if-else inside if-else statements. It can have many levels.
+switch
+
+Logical operators
+    Logical operators to combine expressions
+    &&, ||, !
+
+    true && true = true
+    true && false = false
+    false && true = false
+    false && false = false 
+
+    true || true = true
+    true || false = true
+    false || true = true
+    false || false = false
+
+    !true = false
+    !false = true
+
+Truthy & Falsy
+Everthing in JS is true or false (in boolean context)
+this doesn't mean their value itself is false or true, but they are treated as false or true if taken in boolean context
+
+Falsy values
+false, 0, -0, on (BigInt Value), '''(empty string), null, undefined, NaN
+
+Truthy values
+Everthing else
+
+Switch Statement
+Used when we have some fixed values that we need to compare to.
+
+Alert & Prompt
+Alert displays an alert message on the page
+alert("something is wrong!");
+
+Prompt displays a dialog box that asks user for some input
+prompt("please enter your roll no.")
+
