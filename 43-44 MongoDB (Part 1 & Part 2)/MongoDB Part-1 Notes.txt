@@ -1,0 +1,104 @@
+The Shell
+
+mongosh //to start
+use college //to create & use a new database called "college"
+cls //to clear the terminal while using mongosh
+help //we will see all monogoDB commands
+quit or exit //to exit from monogoDB from terminal
+db //current database name
+
+CRUD Operations
+C - Create/Insert 
+R - Read/Find
+U - Update
+D - Delete
+
+mongosh it is a type of javascript shell 
+
+BSON Data
+    Binary JSON
+
+JSON vs BSON
+    JSON and BSON are close cousins as their nearly identical names imlpy
+
+JSON
+    Text based
+    Space inefficient
+    Encoding: UTF-8 String
+    Data Support: String, Boolean, Number, Array, Object, null
+    Readability: Human and Machine
+
+BSON
+    Encoding: Binary
+    Data Support: String, Boolean, Number(Integer, Float, Long, Decimal128...), Array, null, Date, BinData
+    Readability: Machine only
+
+Collections
+    Document: Mongo stores data in form of documents (BSON docs)
+    Collection: MongoDB stores document in collections.
+
+INSERT in DB
+insertOne
+    db.collection.insertOne()
+
+    show collections //to see data in the database
+
+Ex:
+    db.student.insertOne({ name: "Rishabh", marks: 80})
+    db.students.find()
+If a collection does not exist, MongoDB creates the collection when you first store data for that collection.
+
+insertMany(array of documents)
+db.collection.insertMany() //Inserts multiple documents into a collection.
+Ex:
+    db.student.insertMany([{ name: "Rishii", marks: 88}, {name: "Abhi", city:"Mandya"}])
+
+FIND in DB
+db.collection.find() //returns everything
+
+for specific queries
+db.collection.find({key:value}) //returns cursor -> (refernence to original)
+db.collection.findone({key:value}) //returns Actual document
+
+FIND in DB
+Query Operators
+
+Comparison
+$eq - equal to
+$gt - greater than
+$gte - greater than equal to
+$in - Matches any of the values specified in an array
+$lt - less than
+$lte - less than equal to
+$ne - not equal to
+$nin - not in
+
+Logical Operators
+$and, $not, $nor, $or
+
+UPDATE in DB
+updateOne
+db.collection.updateOne() 
+    Updates at most a single document that match a specified filter even though multiple documents may match the specified filter.
+
+db.collection.updateOne(<filter>, <update>, <options>)
+
+db.collection.updateMany()
+    Update all documents that match a specified filter
+
+db.collection.replaceOne()
+   Replaces at most a single document that match a specified filter even though multiple documents may match that specified filter.
+
+Nesting
+
+DELETE in DB
+deleteOne
+    db.collection.deleteOne(<filter>, <options>)
+
+deleteMany
+    db.collection(<filter>, <options>)
+
+db.dropDatabase()
+    Before Droping the database we need to empty the database
+
+db.dbname.deleteMany({})
