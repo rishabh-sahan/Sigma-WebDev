@@ -12,3 +12,13 @@ Models
 
 INSERT
 Inserting One
+Inserting Multiple
+
+Note
+Mongoose uses Operation Buffering
+Mongoose lets start using your models immediately, without waiting for mongoose to establish a connection to MongoDB.
+
+FIND
+Model.find() //returns a Query (thennable)
+*Mongoose Queries are not promises. But they have a .then()
+
