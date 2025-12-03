@@ -22,3 +22,22 @@ FIND
 Model.find() //returns a Query (thennable)
 *Mongoose Queries are not promises. But they have a .then()
 
+Model.findOne() //returns a single result
+Model.findById() //commonly used
+
+UPDATE
+Model.updateOne()
+Model.updateMany()
+
+Model.findOneAndUpdate()
+Model.findByIdAndUpdate()
+
+DELETE
+Model.deleteOne() //return count
+Model.deleteMany() //return count
+
+Model.findByIdAndDelete()
+Model.findOneAndDelete()
+
+Schema Validations
+Basically, Rules for Schema
