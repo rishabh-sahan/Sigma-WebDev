@@ -41,3 +41,10 @@ Model.findOneAndDelete()
 
 Schema Validations
 Basically, Rules for Schema
+
+Schema Validations
+with UPDATE
+
+Handling Errors
+console.log(err.errors.category.properties.message);
+
