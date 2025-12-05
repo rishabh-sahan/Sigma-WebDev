@@ -1,0 +1,22 @@
+Creating the Model
+
+Initialize Database
+init.js
+
+Chats
+Index Route
+    GET /chats
+
+New & Create Route
+    GET /chats/New
+    POST /chats
+
+Using Date
+
+Edit & Update Route
+    GET /chats?:id/edit
+    PUT ?chats/:id
+
+Destroy Route
+    DELETE /chats/:id
+
