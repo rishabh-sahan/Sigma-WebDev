@@ -1,0 +1,12 @@
+Getting Started
+
+Database Set Up
+REST Apis for CRUD
+
+Model: Listing -> Place(Apartment, flat, house, villa, hotel)
+title, description, image, price, location, country
+
+What is EJS Mate?
+npm i ejs-mate
+
+nodemon app.js
